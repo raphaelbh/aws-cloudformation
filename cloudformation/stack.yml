@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  UsersTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Users
+      AttributeDefinitions: 
+        - AttributeName: user_id
+          AttributeType: S
+      KeySchema: 
+        - AttributeName: user_id
+          KeyType: HASH

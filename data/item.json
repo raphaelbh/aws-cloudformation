@@ -1,0 +1,4 @@
+{
+    "user_id": {"S": "001"},
+    "name": {"S": "John Doe"}
+}
